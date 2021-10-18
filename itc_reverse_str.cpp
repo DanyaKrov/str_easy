@@ -2,7 +2,7 @@
 
 string itc_reverse_str(string str){
     string answer = "";
-    for (int smth_important = itc_len(str) + 1; smth_important> 1; smth_important--)
+    for (int smth_important = itc_len(str) + 1; smth_important > 1; smth_important--)
         answer += str[smth_important];
     return answer;
 }
