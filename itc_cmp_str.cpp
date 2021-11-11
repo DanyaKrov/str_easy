@@ -1,8 +1,8 @@
 #include "str_easy.h"
 
 string itc_cmp_str(string str1, string str2, int num) {
-    if (num < 0)
-        return "";
+    if (num < 0 || itc_len(str1) < num + 1)
+        return str1;
     string answer = ""; int kol = 0;
     int i1 = 0;
     while (i1 < num && kol != itc_len(str1)){
