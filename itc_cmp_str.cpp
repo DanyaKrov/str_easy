@@ -14,7 +14,7 @@ string itc_cmp_str(string str1, string str2, int num) {
          answer += str2[i];
          i++; kol++;
     }
-    while (str2[i1] != '\0' && kol != itc_len(str1)){
+    while (str1[i1] != '\0' && kol != itc_len(str1)){
          answer += str1[i1];
          i1++; kol++;
     }
