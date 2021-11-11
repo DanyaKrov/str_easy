@@ -17,7 +17,6 @@ int itc_find_str(string str1, string str2) {
                     else
                     {
                         answer = 1;
-                        return -1;
                     }
                 }
                 if (answer == itc_len(str2))
