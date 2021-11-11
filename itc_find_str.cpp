@@ -22,5 +22,6 @@ int itc_find_str(string str1, string str2) {
                     return i;
         }
     }
+    return -1;
     }
 }
